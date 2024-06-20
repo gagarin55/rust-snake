@@ -34,6 +34,7 @@ struct Block {
 
 pub struct Snake {
     direction: Direction,
+    // Snake is a list of blocks
     body: LinkedList<Block>,
     tail: Option<Block>,
 }

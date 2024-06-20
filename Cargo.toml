@@ -1,8 +1,8 @@
 [package]
 name = "snake"
 version = "0.1.0"
-authors = ["naul"]
+authors = [""]
 
 [dependencies]
 rand = "*"
-piston_window = "*"
+piston_window = "0.80.0"
